@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo img{
+    width: 70px;
+    /* margin-left: 45%; */
+}
+
+/* .barra_pesquisa input
+{
+    margin-left: 10%;
+    margin-top: 4%;
+} */
+
+/* .sign-in{
+    margin-left: 70%;
+    display: flex;
+    flex-direction: column;
+} */
+
+.default {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barra_pesquisa button
+{
+    background-color: #401A0D;
+    border: 0px;
+}
+
+.barra_pesquisa img
+{
+    height: 25px;
+    width: 25px;
+}
+
+.intro
+{
+    background-color: #8C4C27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header
+{
+    background-color: #BFA393;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-header
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px #D9C7B8;
+    padding: 16px
+}
+
+/* hr
+{
+    position: relative;
+            top: 20px;
+            border: none;
+            height: 1%;
+            background: #D9C7B8;
+            margin-bottom: 40px;
+} */
+/* 
+.menu_navegacao ul
+{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    margin-top: 3%;
+    margin-left: 25%
+
+} */
+
+.menu_navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_navegacao a
+{
+    font-size: medium;
+    font-weight: 500;
+    width: 100%;
+  text-decoration: none;  
+  color: black;
+} 
+
+.menu_navegacao ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    max-width: 1000px;
+}
+
+ul 
+{
+list-style: none;   
+}
+
+
+body
+{
+    background-color: #F2E8DF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.barra_pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.barra_pesquisa input
+{
+    text-align: center;
+    box-sizing: border-box;
+
+    width: 716px;
+    padding: 16px;
+
+    background: #D9D9D9;
+    border: 0px;
+}
+
+.barra_pesquisa button {
+    padding: 9.1px;
+}
+
+.background {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.selecionar-categoria
+{
+    width: 20%;
+    height: 51px;
+    background-color: #401A0D;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.selecionar-categoria a
+{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.escrita h1
+{
+    font-weight: 600;
+    display: flex;
+    color: #D9D9D9;
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+
+.imagem{
+    display: flex;
+    margin: auto;
+    flex: 1;
+    
+}
+
+.cards
+{
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card1
+{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    padding: 80px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card2
+{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    padding: 80px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card3
+{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    padding: 80px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card4
+{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    padding: 80px;
+    text-decoration: none;
+    list-style: none;   
+}
+
+.cards_info h1{
+    text-align: center;
+}
+
+.cards_info h3{
+    text-align: center;
+}
+
+.cards_info{
+    list-style: none;
+    
+}
+
+.cards_painel{
+    box-sizing: border-box;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.card_cadastro{
+
+    font-size: 30px;
+    background-color: #401A0D;
+    padding: 80px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card_cadastrar_usuario{
+    font-size: 30px;
+    background-color:#8C4C27;
+    padding: 80px;
+    list-style: none;
+}
+
+.card_listar{
+    font-size: 30px;
+    background-color: #401A0D;
+    padding: 80px;
+    list-style: none;
+}
+
+.card_sair{
+    font-size: 30px;
+    background-color: #8C4C27;
+    padding: 80px;
+    list-style: none;
+}
+
+.card_cadastro li, a{
+    color: white;   
+    width: 100%;
+    text-decoration: none;
+    font-style: none
+;
+}
+
+table
+{
+    width: 60%;
+    border-collapse: collapse;  
+}
+
+table, th, td
+{
+    border: 1px solid;
+    border-color:#8C4C27;
+}
+
+th
+{
+    height: 25px;
+    background-color:#8C4C27;
+    color: white;
+    font-weight: 400;
+}
+
+td
+{
+    height: 50px;
+    text-align: center;
+}
+    
+.rodape
+{
+    background-color: #BFA393;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.endereco
+{
+    font-size: 7px;
+}
+
+.contato
+{
+    font-size: 10px;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+
+.social
+{
+    font-size: 15px;
+}
+
+.copyright
+{
+    background-color: #BFA393;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape_explore h1
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rodape_at_cliente h1
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rodape_politica h1
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.fixar_rodape {
+    bottom: 0;
+    position:relative;
+    width: 100%;
+    text-align: center;
+}
+
+.text_painel h1, h3
+{
+    text-align: center;
+}
